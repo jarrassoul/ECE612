@@ -1,0 +1,74 @@
+2025-08-13 12:27:26,839 | INFO | Image_size: 300×300
+2025-08-13 12:27:26,839 | INFO | Batch_size: 32
+2025-08-13 12:27:26,839 | INFO | Classes: 358
+2025-08-13 12:27:26,839 | INFO | Train_examples: 7160
+2025-08-13 12:27:26,839 | INFO | Val_examples: 3580
+2025-08-13 12:27:26,839 | INFO | Steps_per_epoch: 224
+2025-08-13 12:27:26,844 | INFO | Val_steps: 112
+2025-08-13 12:27:26,844 | INFO | Output_dir: bird_training_20250813_122726
+2025-08-13 12:35:46,422 - INFO - Image size: 300x300
+2025-08-13 12:35:46,422 - INFO - Batch size: 48
+2025-08-13 12:35:46,424 - INFO - Number of classes: 358
+2025-08-13 12:35:46,424 - INFO - Training examples: 7160
+2025-08-13 12:35:46,424 - INFO - Validation examples: 3580
+2025-08-13 12:35:46,424 - INFO - Training steps: 150
+2025-08-13 12:35:46,424 - INFO - Validation steps: 75
+2025-08-13 12:35:46,424 - INFO - Output directory: bird_training_20250813_123546
+2025-08-13 12:35:46,424 - INFO - Base model: EfficientNetV2B3
+2025-08-13 12:35:46,424 - INFO - Training strategy: Two-phase (frozen base + fine-tune)
+2025-08-13 12:36:35,483 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-08-13 12:37:24,027 - INFO - Image size: 300x300
+2025-08-13 12:37:24,027 - INFO - Batch size: 16
+2025-08-13 12:37:24,027 - INFO - Number of classes: 358
+2025-08-13 12:37:24,027 - INFO - Training examples: 7160
+2025-08-13 12:37:24,027 - INFO - Validation examples: 3580
+2025-08-13 12:37:24,027 - INFO - Training steps: 448
+2025-08-13 12:37:24,027 - INFO - Validation steps: 224
+2025-08-13 12:37:24,027 - INFO - Output directory: bird_training_20250813_123723
+2025-08-13 12:37:24,027 - INFO - Base model: EfficientNetV2B3
+2025-08-13 12:37:24,027 - INFO - Training strategy: Two-phase (frozen base + fine-tune)
+2025-08-13 12:57:22,068 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-08-13 12:58:13,520 - INFO - Image size: 300x300
+2025-08-13 12:58:13,521 - INFO - Batch size: 48
+2025-08-13 12:58:13,521 - INFO - Number of classes: 358
+2025-08-13 12:58:13,521 - INFO - Training examples: 7160
+2025-08-13 12:58:13,521 - INFO - Validation examples: 3580
+2025-08-13 12:58:13,521 - INFO - Training steps: 150
+2025-08-13 12:58:13,521 - INFO - Validation steps: 75
+2025-08-13 12:58:13,521 - INFO - Output directory: bird_training_20250813_125813
+2025-08-13 12:58:13,522 - INFO - Base model: EfficientNetV2B3
+2025-08-13 12:58:13,522 - INFO - Training strategy: Two-phase (frozen base + fine-tune)
+2025-08-13 13:10:13,780 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-08-13 13:10:55,576 - INFO - Image size: 300x300
+2025-08-13 13:10:55,576 - INFO - Batch size: 32
+2025-08-13 13:10:55,576 - INFO - Number of classes: 358
+2025-08-13 13:10:55,576 - INFO - Training examples: 7160
+2025-08-13 13:10:55,578 - INFO - Validation examples: 3580
+2025-08-13 13:10:55,578 - INFO - Training steps: 224
+2025-08-13 13:10:55,578 - INFO - Validation steps: 112
+2025-08-13 13:10:55,578 - INFO - Output directory: bird_training_20250813_131055
+2025-08-13 13:10:55,578 - INFO - Base model: EfficientNetV2B3
+2025-08-13 13:10:55,578 - INFO - Training strategy: Two-phase (frozen base + fine-tune)
+2025-08-13 19:00:28,372 - ERROR - Training failed: 'val_accuracy'
+Traceback (most recent call last):
+  File "D:\MS.Cybersecurity\Summer 25\ECE612\Homeworks\Hw3\buildAndTrainBirder.py", line 363, in train
+    val_metric = history2.history[f'val_{metric}'][-1]
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'val_accuracy'
+2025-08-13 19:00:33,443 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-08-13 19:09:47,903 - INFO - Image size: 300x300
+2025-08-13 19:09:47,903 - INFO - Batch size: 16
+2025-08-13 19:09:47,903 - INFO - Number of classes: 358
+2025-08-13 19:09:47,903 - INFO - Training examples: 7160
+2025-08-13 19:09:47,904 - INFO - Validation examples: 3580
+2025-08-13 19:09:47,904 - INFO - Training steps: 448
+2025-08-13 19:09:47,904 - INFO - Validation steps: 224
+2025-08-13 19:09:47,904 - INFO - Output directory: bird_training_20250813_190947
+2025-08-13 19:09:47,904 - INFO - Base model: EfficientNetV2B3
+2025-08-13 19:09:47,904 - INFO - Training strategy: Two-phase (frozen base + fine-tune)
+2025-08-14 01:07:02,709 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+

@@ -1,0 +1,32 @@
+2025-08-13 11:37:19,117 - INFO - Model: EfficientNetV2B3
+2025-08-13 11:37:19,117 - INFO - Image size: 300x300
+2025-08-13 11:37:19,117 - INFO - Batch size: 32
+2025-08-13 11:37:19,117 - INFO - Number of classes: 358
+2025-08-13 11:37:19,117 - INFO - Training examples: 7160
+2025-08-13 11:37:19,117 - INFO - Validation examples: 3580
+2025-08-13 11:37:19,117 - INFO - Training steps per epoch: 223
+2025-08-13 11:37:19,117 - INFO - Validation steps per epoch: 111
+2025-08-13 11:37:19,117 - INFO - Output directory: bird_training_optimized_20250813_113719
+2025-08-13 11:37:21,598 - ERROR - An error occurred during training: Model building failed
+Traceback (most recent call last):
+  File "D:\MS.Cybersecurity\Summer 25\ECE612\Homeworks\Hw3\buildAndTrainBirder.py", line 271, in train
+    raise Exception("Model building failed")
+Exception: Model building failed
+2025-08-13 11:37:22,427 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-08-13 11:43:01,323 - INFO - Model: EfficientNetV2B3
+2025-08-13 11:43:01,327 - INFO - Image size: 300x300
+2025-08-13 11:43:01,328 - INFO - Batch size: 32
+2025-08-13 11:43:01,328 - INFO - Number of classes: 358
+2025-08-13 11:43:01,328 - INFO - Training examples: 7160
+2025-08-13 11:43:01,328 - INFO - Validation examples: 3580
+2025-08-13 11:43:01,328 - INFO - Training steps per epoch: 223
+2025-08-13 11:43:01,328 - INFO - Validation steps per epoch: 111
+2025-08-13 11:43:01,328 - INFO - Output directory: bird_training_optimized_20250813_114301
+2025-08-13 11:43:03,607 - ERROR - An error occurred during training: Model building failed
+Traceback (most recent call last):
+  File "D:\MS.Cybersecurity\Summer 25\ECE612\Homeworks\Hw3\buildAndTrainBirder.py", line 271, in train
+    raise Exception("Model building failed")
+Exception: Model building failed
+2025-08-13 11:43:04,535 - WARNING - From C:\Users\ya3be\miniconda3\envs\HomeWork3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
